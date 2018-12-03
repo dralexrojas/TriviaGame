@@ -1,0 +1,83 @@
+html, body{
+    height:100%;
+    font-family: 'Aclonica', sans-serif;
+  }
+  
+  body{
+    background-image: url(../images/smthsbackground.png);
+    text-align: center;
+  
+  }
+  
+  #wrapper{
+    margin:5.5% auto;
+    background: rgba(245,245, 245, 0.5);
+    width:900px;
+    height: 90%;
+    box-sizing: border-box;
+  }
+  
+  #subwrapper{
+    position: relative;
+    
+  }
+
+  #subwrapper #quiz-area h2{
+      border: 5px black;
+  }
+
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;;
+    border: black 5px;
+  }
+  
+  img{
+    height:200px;
+  }
+  
+  h1{
+    font-size: 4.5em;
+    font-weight: bold;
+    color:black;
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+   
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    margin-top: 10%;
+    border:2px solid black;
+    background: grey;
+  }
+
+  #start-over{
+    margin-top: 10%;
+    border:2px solid black;
+    background: whitesmoke;
+  }
+
+  button:hover {
+    border:2px solid black;
+    background: whitesmoke;
+  }
+   
+  
+
+
+
+
